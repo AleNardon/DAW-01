@@ -1,0 +1,99 @@
+body {
+	font-family: "Noto Sans Display", "Arial Black", sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+/* navbar */
+.navbar {
+	background: #253a54;
+	display: flex;
+	align-items: center;
+	gap: 50px;
+	padding: 0px 34px;
+	margin: 0px 0px 40px 0px;
+}
+.push-right {
+	margin-left: auto;
+}
+.navbar div {
+	display: flex;
+	align-items: center;
+}
+.navbar div img {
+	margin-right: 10px;
+}
+.navbar div h2 {
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	font-weight: 500;
+}
+.links a {
+	color: #fafafa;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+}
+@media (max-width: 900px) {
+	.navbar {
+		overflow: hidden;
+		position: relative;
+	}
+	.hamburger {
+		display: block;
+		margin-left: auto;
+		color: #fafafa;
+	}
+	.links {
+		display: none !important;
+	}
+}
+@media (min-width: 900px) {
+	.hamburger {
+		display: none !important;
+	}
+	.links {
+		margin-left: auto;
+		display: flex;
+		gap: 20px;
+	}
+}
+
+.leftcolumn {
+	float: left;
+	width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+	float: left;
+	width: 25%;
+	background-color: #f1f1f1;
+	padding-left: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+	.leftcolumn,
+	.rightcolumn {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+.notice {
+    background-color: #f1f1f1;
+    padding: 0px 1px 10px 1px;
+    margin: auto;
+    width: 50%;
+
+}
+.notice img{
+    width: -webkit-fill-available;
+}
