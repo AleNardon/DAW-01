@@ -1,0 +1,30 @@
+body {
+	font-family: "Noto Sans Display", "Arial Black", sans-serif;
+    background: #003049;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fdf0d5; 
+    font-weight: 400;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+h1{
+    font-size: 35px;
+    color: #fdf0d5;
+    margin-bottom: 10px;
+}
+.divButton{
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #c1121f;
+}
