@@ -4,15 +4,30 @@ Primera actividad de Desarrollo de arquitectura de software
 
 
 ## Actividad hasta clase 4
-### Link de la noticia oficial:
+#### Link de la noticia oficial:
 **https://www.ole.com.ar/san-lorenzo/insua-despedido-tecnico-san-lorenzo-dirigentes_0_PHSPqpvbCV.html**
 
-### Link de github pages:
+#### Link de github pages:
 **https://alenardon.github.io/DAW-01/Daw-clase5/index.html**
 
 
 
 ## Actividad TP2
 
-### Link de github pages:
+#### Link de github pages:
 **https://alenardon.github.io/DAW-01/TP2/index.html**
+
+
+## Actividad clase 8
+
+#### Link de github:
+**https://github.com/AleNardon/DAW-01/tree/main/exercises**
+
+
+## Actividad clase 9
+
+#### Link de github pages:
+**https://alenardon.github.io/DAW-01/TP2/form/suscripcion.html**
+
+#### Link de github :
+**https://github.com/AleNardon/DAW-01/tree/main/TP2/form**
