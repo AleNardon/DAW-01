@@ -161,3 +161,30 @@ body {
     height: 300px;
     align-content: center;
 }
+footer{
+    background: #253a54;
+    color: #fafafa;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    text-decoration: none;
+    margin-top: 50px;
+}
+footer a{
+    color: #fafafa;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #720000;
+}
+h3{
+    font-size: 15px;
+    font-weight: 400;
+    margin :0px;
+}
+.footer-col{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}
