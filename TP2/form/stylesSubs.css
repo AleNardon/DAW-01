@@ -1,0 +1,79 @@
+.titSubs {
+	margin-left: 20px;
+}
+.divSubs {
+	padding: 25px;
+	background: #d1d1d1;
+	margin: 10px;
+	border-radius: 15px;
+}
+.divSubs h2 {
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.formField {
+    width: -webkit-fill-available;
+	display: flex;
+	flex-direction: column;
+	margin: 0px 0px 20px 0px;
+}
+.formField label {
+	font-size: 12px;
+	color: #252525;
+	margin: 0px 0px 3px 5px;
+    font-weight: 600;
+}
+.formField input {
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+}
+.formField input:focus {
+	outline: none;
+}
+.errorMessage{
+    color: #720000;
+    font-size: 10px;
+    margin: 3px 0px 0px 10px;
+    height: 12px;
+}
+#formSubs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+	#formSubs .formField {
+		width: 48%;
+		margin-right: 4%;
+	}
+	#formSubs .formField:nth-child(even) {
+		margin-right: 0;
+	}
+	
+	.divSubs {
+		margin: 10px 60px;
+	}
+}
+#formSubs .submitBtn {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    
+}
+.submitBtn button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #079b14;
+    color: #fff;
+}
+.submitBtn button:hover {
+    background: #0d6e0f;
+    cursor: pointer;
+}
+.errorInput{
+    border: 1px solid #720000 !important;
+}

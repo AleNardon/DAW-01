@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../styles/normalize.css" />
+		<link rel="stylesheet" href="../styles/style.css" />
+		<link rel="stylesheet" href="./stylesSubs.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link
+			rel="shortcut icon"
+			href="https://www.ole.com.ar/collections/escudos/2549.png"
+		/>
+
+		<title>Suscripción</title>
+	</head>
+	<body>
+		<header class="">
+			<div class="navbar">
+				<div>
+					<img
+						src="https://www.ole.com.ar/collections/escudos/2549.png"
+						height="40"
+						width="40"
+					/>
+
+					<h2 class="">Cuervo.com</h2>
+				</div>
+				<div class="links">
+					<a href="../index.html">Inicio</a>
+					<a href="#">Noticias</a>
+					<a href="#">Plantel</a>
+					<a href="./form/suscripcion.html">Suscripción </a>
+				</div>
+				<i class="fa fa-bars hamburger"></i>
+			</div>
+		</header>
+		<div>
+			<h1 class="titSubs">Subscríbete a nuestro diario online</h1>
+			<div class="divSubs">
+				<h2>Hola <span id="nameSubs"></span> !</h2>
+				<form id="formSubs">
+					<div class="formField">
+						<label for="Name">Nombre completo</label>
+						<input type="text" id="name" name="full-name" />
+						<div class="errorMessage" id="nameError"></div>
+					</div>
+					<div class="formField">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" />
+						<div class="errorMessage" id="emailError"></div>
+					</div>
+					<div class="formField">
+						<label for="password">Contraseña</label>
+						<input type="password" id="password" name="password" />
+						<div class="errorMessage" id="passwordError"></div>
+					</div>
+					<div class="formField">
+						<label for="confirmPassword">Repetir contraseña</label>
+						<input
+							type="password"
+							id="confirmPassword"
+							name="confirmPassword"
+						/>
+						<div
+							class="errorMessage"
+							id="confirmPasswordError"
+						></div>
+					</div>
+					<div class="formField">
+						<label for="age">Edad</label>
+						<input type="number" id="age" name="age" />
+						<div class="errorMessage" id="ageError"></div>
+					</div>
+					<div class="formField">
+						<label for="phone">Teléfono</label>
+						<input type="text" id="phone" name="phone" />
+						<div class="errorMessage" id="phoneError"></div>
+					</div>
+					<div class="formField">
+						<label for="address">Dirección</label>
+						<input type="text" id="address" name="address" />
+						<div class="errorMessage" id="addressError"></div>
+					</div>
+					<div class="formField">
+						<label for="city">Ciudad</label>
+						<input type="text" id="city" name="city" />
+						<div class="errorMessage" id="cityError"></div>
+					</div>
+					<div class="formField">
+						<label for="postalCode">Código Postal</label>
+						<input
+							type="text"
+							id="postalCode"
+							name="postalCode"
+						/>
+						<div class="errorMessage" id="postalCodeError"></div>
+					</div>
+					<div class="formField">
+						<label for="dni">DNI</label>
+						<input type="text" id="dni" name="dni" />
+						<div class="errorMessage" id="dniError"></div>
+					</div>
+                    <div class="submitBtn">
+                        <button type="submit">Enviar</button>
+                    </div>
+				</form>
+			</div>
+		</div>
+        <footer>
+			<div class="footer">
+				<div class="footer-col">
+					<h3>Redes Sociales:</h3>
+
+					<div><a href="#">Facebook</a></div>
+					<div><a href="#">Twitter</a></div>
+					<div><a href="#">Instagram</a></div>
+				</div>
+			</div>
+		</footer>
+        <script src="./validate.js"></script>
+    </body>
+    
+</html>
