@@ -6,6 +6,9 @@
 		<link rel="stylesheet" href="../styles/normalize.css" />
 		<link rel="stylesheet" href="../styles/style.css" />
 		<link rel="stylesheet" href="./stylesSubs.css" />
+		<link rel="stylesheet" href="./modals.css" />
+
+
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -44,6 +47,14 @@
 				<i class="fa fa-bars hamburger"></i>
 			</div>
 		</header>
+        <!-- The Modal -->
+		<div id="myModal" class="modal">
+			<!-- Modal content -->
+			<div class="modalContent">
+				<span class="close">&times;</span>
+                    <div id="content"></div>
+			</div>
+		</div>
 		<div>
 			<h1 class="titSubs">Subscríbete a nuestro diario online</h1>
 			<div class="divSubs">
@@ -127,7 +138,8 @@
 				</div>
 			</div>
 		</footer>
-        <script src="./validate.js"></script>
+        <script src="./app.js"></script>
+        <script src="./modals.js"></script>
     </body>
     
 </html>
