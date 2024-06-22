@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rick&Morty</title>
+		<link rel="stylesheet" href="./styles/styles.css" />
+	</head>
+	<body>
+		<a href="./index.html"><h1>Rick&Morty</h1></a>
+
+		<form id="searchCharacter">
+			<label for="name">Nombre</label>
+			<input type="text" name="name" placeholder="Nombre" />
+			<label for="status">Estado</label>
+			<select type="text" name="status" placeholder="Estado">
+				<option value=""></option>
+				<option value="alive">Vivo</option>
+				<option value="dead">Muerto</option>
+				<option value="unknown">Desconocido</option>
+			</select>
+			<label for="species">Especie</label>
+			<input type="text" name="species" placeholder="Especie" />
+			<label for="type">Tipo</label>
+			<input type="text" name="type" placeholder="Tipo" />
+			<!-- female, male, genderless or unknown -->
+			<label for="gender">Genero</label>
+			<select type="text" name="gender" placeholder="Genero">
+				<option value=""></option>
+				<option value="female">Femenino</option>
+				<option value="male">Masculino</option>
+				<option value="genderless">Sin Genero</option>
+				<option value="unknown">Desconocido</option>
+			</select>
+			<input type="submit" value="Buscar" id="btnSearch" />
+		</form>
+		<script src="./js/search.js"></script>
+	</body>
+</html>

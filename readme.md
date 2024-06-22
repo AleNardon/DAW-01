@@ -24,10 +24,21 @@ Primera actividad de Desarrollo de arquitectura de software
 **https://github.com/AleNardon/DAW-01/tree/main/exercises**
 
 
-## Actividad clase 9
+## Actividad clase 9 y 10
+
 
 #### Link de github pages:
 **https://alenardon.github.io/DAW-01/TP2/form/suscripcion.html**
 
 #### Link de github :
 **https://github.com/AleNardon/DAW-01/tree/main/TP2/form**
+
+
+## TP APIREST
+
+
+#### Link de github pages:
+**https://alenardon.github.io/TP-APIREST/index.html**
+
+#### Link de github :
+**https://github.com/AleNardon/TP-APIREST/index.html**

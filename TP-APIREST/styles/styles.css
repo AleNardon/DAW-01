@@ -1,0 +1,137 @@
+body {
+	font-family: "Noto Sans Display", "Arial", sans-serif;
+	background: #091c58;
+}
+p {
+	margin: 0px;
+}
+
+#characters {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	gap: 10px;
+    justify-content: center;
+}
+
+.divCharacter {
+	background: #ddd;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	border-radius: 8px;
+    width: 300px;
+    
+}
+.divImg img {
+	border-radius: 8px 8px 0 0px;
+	width: -webkit-fill-available;
+}
+.divImg {
+	height: min-content;
+	margin-bottom: 5px;
+}
+.infoCharacter {
+	padding: 17px;
+	font-size: 12px;
+}
+.nombre {
+	font-size: 22px;
+	font-weight: 600;
+	color: #752b2b;
+	text-align: center;
+	margin-bottom: 15px;
+}
+#paginator div {
+	padding: 5px;
+	color: #000000;
+	background: #f5f5f5;
+	width: 25px;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	justify-content: center;
+}
+#paginator div:hover {
+	background: #e0e0e0;
+    cursor: pointer;
+}
+#paginator {
+	display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: #fdf0d5;
+    margin-bottom: 30px;
+}
+.divButton{
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #c1121f;
+}
+a {
+    text-decoration: none;
+    color: #fdf0d5; 
+    font-weight: 400;
+}
+.divIndex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin-top: 50px;
+}
+#searchText h3{
+    text-align: start;
+    font-size: 24px;
+    color: #fdf0d5;
+    margin-bottom: 10px;
+}
+#searchText {
+    margin-bottom: 30px;
+}
+#searchText p{
+    text-align: start;
+    font-size: 12px;
+    color: #fdf0d5;
+    margin-bottom: 3px;
+}
+#searchCharacter{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+#searchCharacter label{
+    font-size: 14px;
+    color: #fdf0d5;
+}
+
+#searchCharacter input, #searchCharacter select{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    margin-bottom: 15px;
+}
