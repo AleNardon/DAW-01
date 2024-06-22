@@ -38,7 +38,7 @@ Primera actividad de Desarrollo de arquitectura de software
 
 
 #### Link de github pages:
-**https://alenardon.github.io/TP-APIREST/index.html**
+**https://alenardon.github.io/DAW-01/TP-APIREST/index.html**
 
 #### Link de github :
-**https://github.com/AleNardon/TP-APIREST/index.html**
+**https://github.com/AleNardon/DAW-01/tree/main/TP-APIREST**
